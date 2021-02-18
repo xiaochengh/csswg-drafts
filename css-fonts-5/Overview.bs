@@ -240,9 +240,9 @@ within an individual element e.g. for characters not supported by the primary fo
 </div>
 
 <div class="example">
-    In certain scripts like CJK, or when [[CSS-WRITING-MODES-3!!text-orientation]] value is 'upright', glyphs remain upright in
-    vertical text. For 'advance-override' to work properly, we need to scale the height of each glyph instead of the width.
-    We use the second percentage parameter for this scenario.
+    In certain scripts like CJK, or when the 'text-orientation' value is 'text-orientation/upright', glyphs remain
+    upright in vertical text. For 'advance-override' to work properly, we need to scale the height of each glyph
+    instead of the width. We use the second percentage parameter for this scenario.
     
 <xmp>
 @font-face {
