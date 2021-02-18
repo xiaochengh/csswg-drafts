@@ -246,21 +246,21 @@ within an individual element e.g. for characters not supported by the primary fo
     
 <xmp>
 @font-face {
-  font-family: "MySimHei";
-  src: local("SimHei Regular");
+  font-family: "My Heiti SC";
+  src: local("Heiti SC Light");
   advance-override: 140% 130%;
 }
 ...
 <div style="writing-mode: vertical-rl">
-  <p style="font: 96px SimHei">你好</p>
-  <p style="font: 96px MySimHei">你好</p>
+  <p style="font: 96px 'Heiti SC'">你好</p>
+  <p style="font: 96px 'My Heiti SC'">你好</p>
 </div>
 </xmp>
     The rendering will look like this:
     <figure>
-      <img alt="Overridden advance of upright vertical SimHei glyphs" src="images/SimHei_Upright_Vertical_Overridden_Advance.png">
+      <img alt="Overridden advance of upright vertical SimHei glyphs" src="images/Heiti_Upright_Vertical_Overridden_Advance.png">
     </figure>
-    In this example, the natural advance between the glyphs is xxx, whereas the overridden advance is xxx * 1.3 = xxx.
+    In this example, the natural advance between the glyphs is 96 pixels, whereas the overridden advance is 96 pixels * 1.3 = 124.8 pixels.
     
 </div>
 
